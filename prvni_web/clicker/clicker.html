@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html lang="cs">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Počítadlo kliknutí</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            margin: 30px;
+        }
+        button {
+            font-size: 16px;
+            padding: 8px 16px;
+            margin-right: 6px;
+            cursor: pointer;
+        }
+    </style>
+</head>
+<body>
+    <h1>Počítadlo kliknutí</h1>
+
+    <h2>Počet kliknutí: <span id="vysledek">0</span></h2>
+
+    <button onclick="pridej()">Click</button>
+    <button onclick="vynuluj()">Reset</button>
+
+    <script>
+        
+        let pocet = 0;
+
+        function zobraz() {
+            document.getElementById("vysledek").textContent = pocet;
+        }
+
+        function pridej() {
+            pocet++;
+            zobraz();
+        }
+
+        function vynuluj() {
+            pocet = 0;
+            zobraz();
+        }
+
+    </script>
+</body>
+</html>
