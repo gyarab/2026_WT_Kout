@@ -1,6 +1,6 @@
 # Twitch
 
-![Logo Twitch](https://upload.wikimedia.org/wikipedia/commons/thumb/d/d3/Twitch_Glitch_Logo_Purple.svg/512px-Twitch_Glitch_Logo_Purple.svg.png)
+![Logo Twitch](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSsURniQZXO7oElZDqU-JTaWxql7gC7FzJCATI8UhJCEQ&s=10)
 
 ## Psychologie barev značky Twitch
 
